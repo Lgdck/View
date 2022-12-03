@@ -1,0 +1,72 @@
+{
+  "name": "situation-awareness",
+  "version": "5.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "vite --port 8085 --host 127.0.0.1",
+    "build": "vite build",
+    "build2": "vue-cli-service build",
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.21.1",
+    "cos-js-sdk-v5": "^1.4.11",
+    "echarts": "^4.9.0",
+    "element-plus": "1.0.2-beta.52",
+    "element-ui": "^2.4.5",
+    "postcss": "8.1.0",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "postcss-px2rem": "^0.3.0",
+    "vue": "^3.2.41",
+    "vue-cropperjs": "^5.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-resource": "^1.5.3",
+    "vue-router": "^4.0.10",
+    "vue-schart": "^2.0.0",
+    "vuex": "^4.0.2",
+    "wangeditor": "^4.7.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/compiler-sfc": "^3.1.2",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "css-loader": "^6.7.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "lib-flexible": "^0.3.2",
+    "postcss": "^8.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-pxtorem": "^6.0.0",
+    "style-loader": "^3.3.1",
+    "stylus-loader": "^7.1.0",
+    "vite": "^2.5.10",
+    "vue": "^3.2.41",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
